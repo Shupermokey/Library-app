@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const ExploreTopBooks = () => {
     return(
 
@@ -6,7 +8,7 @@ export const ExploreTopBooks = () => {
                 <div>
                     <h1 className="display-5 fw-bold">Find your next adventure</h1>
                     <p className="col-md-8 fs-4">Where would you like to go next?</p>
-                    <a type='button' href='#' className='btn main-color btn-lg text-white'>Explore top books</a> 
+                    <Link type='button'  className='btn main-color btn-lg text-white' to={"/search"}>Explore top books</Link> 
                 </div>
             </div>
 

@@ -1,4 +1,4 @@
-export const kotaConfig = {
+export const oktaConfig = {
 
 
     clientId: '0oaagpl0hph53rXLv5d7',
@@ -6,6 +6,6 @@ export const kotaConfig = {
     redirectUri: 'http://localhost:3000/login/callback',
     scopes: ['openid', 'profile','email'],
     pkce: true,
-    disableHttpsCheck: true
+    disableHttpsCheck: true,
 
 }

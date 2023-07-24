@@ -14,6 +14,8 @@ import LoginWidget from './Auth/LoginWidget';
 
 const oktaAuth = new OktaAuth(oktaConfig);
 
+console.log(oktaAuth);
+
 export const App = () => {
 
 
